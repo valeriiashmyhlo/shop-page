@@ -1,0 +1,40 @@
+.cardSoldOverlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background: rgba(black, .45);
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 60px;
+
+  &.isSold {
+    opacity: 1;
+  }
+}
+
+.cardPrice {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.cardLikeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: grey;
+  border-color: grey;
+
+  &:hover, &:focus {
+    color: grey;
+    border-color: grey;
+  }
+
+  &.liked {
+    color: red;
+    border-color: red;
+  }
+}
