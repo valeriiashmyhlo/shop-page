@@ -13,29 +13,22 @@ describe(`<Item /> tests`, () => {
     sold: false,
     isLiked: false
   };
-  const soldItem = {
-    brand: "brandName",
-    id: "1",
-    img: "imgUrl",
-    name: "name",
-    price: "33.33",
-    sold: true,
-    isLiked: true
-  };
+
   it("should render CardItem with correct props", () => {
     const { container } = render(<CardItem onLike={() => {}} {...item} />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
   it("should mark sold items as sold", () => {
-    const { container } = render(<CardItem onLike={() => {}} {...soldItem } />);
+    const { container } = render(<CardItem onLike={() => {}} {...item } sold isLiked />);
     expect(container.firstChild).toMatchSnapshot();
   });
 
   it("should call onLike", () => {
     const onLike = jest.fn();
     const { getByTestId } = render(<CardItem onLike={onLike} {...item} />);
-    fireEvent.click(getByTestId("likeBtn"));
+    fireEvent.click(getByTestId("like-btn"));
+    expect(onLike).toHaveBeenCalledWith("1");
     expect(onLike).toHaveBeenCalledTimes(1);
   });
 });

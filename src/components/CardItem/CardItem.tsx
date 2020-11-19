@@ -27,12 +27,12 @@ export const CardItem: FC<{
             alt="productImg"
             src={FallbackImg}
             // If I understand the task correctly, there should be src={img}
-            // but doesn't seems right with the data, since these are the list of people img, not the product
+            // but it doesn't seems right, since these are the images of people, not the products
             // src={img}
           />
           <div
             className={classNames(styles.cardSoldOverlay, {
-              [styles.isSold]: sold,
+              [styles.sold]: sold,
             })}
           >
             sold
@@ -47,7 +47,7 @@ export const CardItem: FC<{
         })}
         size="small"
         icon={<LikeOutlined />}
-        data-testid="likeBtn"
+        data-testid="like-btn"
       />
       <p>{name}</p>
       <p>{brand}</p>
