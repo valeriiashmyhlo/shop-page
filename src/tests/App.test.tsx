@@ -9,7 +9,7 @@ test("renders App component", async () => {
   const { container, getByText } = render(<App getProducts={getProducts} />);
 
   expect(container.firstChild).toMatchSnapshot();
-  await waitFor(() => getByText("Hide Sold Items"));
+  const btn = await waitFor(() => getByText("Hide Sold Items"));
   expect(container.firstChild).toMatchSnapshot();
 });
 

@@ -26,9 +26,8 @@ export const CardItem: FC<{
           <img
             alt="productImg"
             src={FallbackImg}
-            // If I understand the task correctly, there should be src={img}
-            // but it doesn't seems right, since these are the images of people, not the products
             // src={img}
+            // If believe, there should be src={img} but it doesn't seems right, since these are the images of people, not the products
           />
           <div
             className={classNames(styles.cardSoldOverlay, {

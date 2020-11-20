@@ -45,16 +45,20 @@ exports[`hides/shows sold products 1`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -1268,17 +1272,21 @@ exports[`hides/shows sold products 2`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      ant-click-animating-without-extra-node="false"
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Show Sold Items
-      </span>
-    </button>
+      <button
+        ant-click-animating-without-extra-node="false"
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Show Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -2492,17 +2500,21 @@ exports[`hides/shows sold products 3`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      ant-click-animating-without-extra-node="false"
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        ant-click-animating-without-extra-node="false"
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -3716,16 +3728,20 @@ exports[`products liked onLike 1`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -4966,16 +4982,20 @@ exports[`products liked onLike 2`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -6218,16 +6238,20 @@ exports[`remove liked product from dropdown list 1`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -7443,16 +7467,20 @@ exports[`remove liked product from dropdown list 2`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -8667,7 +8695,7 @@ exports[`renders App component 1`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
     <div>
       Loading...
@@ -8721,16 +8749,20 @@ exports[`renders App component 2`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -9944,16 +9976,20 @@ exports[`shows/hides the list of liked products 1`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -11194,16 +11230,20 @@ exports[`shows/hides the list of liked products 2`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -12446,16 +12486,20 @@ exports[`shows/hides the list of liked products 3`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >
@@ -13698,16 +13742,20 @@ exports[`shows/hides the list of liked products 4`] = `
   </div>
   <main
     class="ant-layout-content"
-    style="padding: 0px 90px;"
+    style="padding: 0px 100px;"
   >
-    <button
-      class="ant-btn"
-      type="button"
+    <div
+      class="btnWrap"
     >
-      <span>
-        Hide Sold Items
-      </span>
-    </button>
+      <button
+        class="ant-btn"
+        type="button"
+      >
+        <span>
+          Hide Sold Items
+        </span>
+      </button>
+    </div>
     <div
       class="cards"
     >

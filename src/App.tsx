@@ -76,15 +76,17 @@ const App: React.FC<{ getProducts: () => Promise<Product[]> }> = () => {
           </div>
         </div>
       </div>
-      <Content style={{ padding: "0 90px" }}>
+      <Content style={{ padding: "0 100px" }}>
         {isLoaded ? (
           error ? (
             <div>Sorry, there was an error loading your products</div>
           ) : (
             <>
-              <Button onClick={() => setSoldShown(!isSoldShown)}>
-                {isSoldShown ? "Hide" : "Show"} Sold Items
-              </Button>
+              <div className={styles.btnWrap}>
+                <Button onClick={() => setSoldShown(!isSoldShown)}>
+                  {isSoldShown ? "Hide" : "Show"} Sold Items
+                </Button>
+              </div>
               <div className={styles.cards}>
                 {visibleProducts.map((product) => (
                   <CardItem
