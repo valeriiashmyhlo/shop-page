@@ -5,7 +5,7 @@ import { MockData } from "./mockData";
 
 const getProducts = async () => MockData;
 
-describe(App, () => {
+describe('App', () => {
   it("should render App component", async () => {
     const { container, getByText } = render(<App getProducts={getProducts} />);
 
