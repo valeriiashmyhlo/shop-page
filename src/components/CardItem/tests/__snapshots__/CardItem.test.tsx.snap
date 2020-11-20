@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Item /> tests should mark sold items as sold 1`] = `
+exports[`<CardItem /> tests should mark sold items as sold 1`] = `
 <div
   class="ant-card ant-card-bordered ant-card-small"
   style="width: 220px; margin: 10px;"
@@ -61,7 +61,7 @@ exports[`<Item /> tests should mark sold items as sold 1`] = `
 </div>
 `;
 
-exports[`<Item /> tests should render CardItem with correct props 1`] = `
+exports[`<CardItem /> tests should render CardItem with correct props 1`] = `
 <div
   class="ant-card ant-card-bordered ant-card-small"
   style="width: 220px; margin: 10px;"

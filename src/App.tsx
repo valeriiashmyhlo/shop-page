@@ -7,11 +7,12 @@ import { CardItem } from "./components/CardItem";
 import { map } from "./utils";
 import { useLoadProducts } from "./hooks";
 import { Product } from "./types";
-import {getProducts} from "./api";
 
 const { Content } = Layout;
 
-const App: React.FC<{ getProducts: () => Promise<Product[]> }> = () => {
+const App: React.FC<{ getProducts: () => Promise<Product[]> }> = ({
+  getProducts,
+}) => {
   const [products, isLoaded, error] = useLoadProducts(getProducts);
   const [liked, setLiked] = useState<Set<string>>(new Set());
   const [isOpen, setOpen] = useState(false);
